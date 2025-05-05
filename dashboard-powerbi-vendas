@@ -1,0 +1,37 @@
+3. Projeto Power BI: Dashboard Interativo de Vendas
+Repositório GitHub:
+Nome: dashboard-powerbi-vendas
+
+
+Estrutura do repositório:
+
+ CopiarEditar
+dashboard-powerbi-vendas/
+├── Dashboard_Analise_Vendas.pbix
+├── exemplo_dashboard.png
+└── README.md
+
+
+Exemplo de README.md:
+markdown
+CopiarEditar
+# Projeto: Dashboard Interativo de Vendas com Power BI
+
+## 💼 Descrição
+Este projeto consiste em um dashboard interativo para análise de vendas utilizando Power BI. O dashboard apresenta gráficos dinâmicos com segmentações de dados por região e produto.
+
+## 🛠️ Ferramentas Usadas
+- [x] Power BI
+  - Tabelas e gráficos: Barras, Linha, Pizza
+  - Medidas DAX: Receita Total, Venda Média, % por Categoria
+
+## 📊 Resultados
+- Dashboard interativo com segmentações e métricas de vendas.
+- Gráficos de tendência e comparações entre regiões e produtos.
+
+## 🖼️ Exemplos Visuais
+![Dashboard Power BI](exemplo_dashboard.png)
+
+## 📂 Como usar
+Baixe o arquivo `.pbix` e abra no Power BI para explorar o dashboard.
+

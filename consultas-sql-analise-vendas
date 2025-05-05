@@ -1,0 +1,36 @@
+2. Projeto SQL: Consultas de Análise de Vendas
+Repositório GitHub:
+Nome: consultas-sql-analise-vendas
+
+
+Estrutura do repositório:
+
+ pgsql
+CopiarEditar
+consultas-sql-analise-vendas/
+├── Projeto_SQL_Analise_Vendas.sql
+└── README.md
+
+
+Exemplo de README.md:
+markdown
+CopiarEditar
+# Projeto: Consultas SQL para Análise de Vendas
+
+## 💼 Descrição
+Este projeto contém scripts SQL para análise de vendas. O objetivo é realizar consultas para obter insights como total de vendas por região e produto, utilizando operações como `JOIN`, `GROUP BY` e `CTE`.
+
+## 🛠️ Ferramentas Usadas
+- [x] SQL
+  - Comandos: `SELECT`, `WHERE`, `JOIN`, `GROUP BY`, `ORDER BY`
+
+## 📊 Resultados
+- Consultas para analisar vendas por produto, região e período.
+- Exemplos de uso de CTEs e VIEWS para análise avançada.
+
+## 🖼️ Exemplos Visuais
+- Diagrama ou prints das consultas executadas, se aplicável.
+
+## 📂 Como usar
+Baixe o arquivo `.sql` e execute no seu banco de dados para ver os resultados.
+

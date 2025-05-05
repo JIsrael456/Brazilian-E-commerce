@@ -1,0 +1,35 @@
+1. Projeto Excel: Análise de Vendas com Fórmulas e Gráficos
+Repositório GitHub:
+Nome: analise-vendas-excel
+
+
+Estrutura do repositório:
+
+ CopiarEditar
+analise-vendas-excel/
+├── Projeto_Excel_Analise_Vendas.xlsx
+└── README.md
+
+
+Exemplo de README.md:
+markdown
+CopiarEditar
+# Projeto: Análise de Vendas com Excel
+
+## 💼 Descrição
+Este projeto consiste em uma análise de dados de vendas usando o Excel. Foi criado um dashboard interativo utilizando gráficos e fórmulas para entender as vendas por produto e região.
+
+## 🛠️ Ferramentas Usadas
+- [x] Excel
+  - Fórmulas: PROCV, SOMASE, MÉDIA
+  - Gráficos: Colunas, Pizza, Linha
+
+## 📊 Resultados
+- Dashboard interativo com análise de vendas.
+- Gráficos de vendas por região, produto e período.
+
+## 🖼️ Exemplos Visuais
+![Gráfico de Vendas](exemplo_dashboard.png)
+
+## 📂 Como usar
+Baixe o arquivo e abra no Excel para explorar as interações.
