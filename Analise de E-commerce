@@ -1,0 +1,102 @@
+Analise de E-commerce com SQL
+
+Projeto: Análise de Desempenho de Vendas e Clientes com SQL
+
+💼 Descrição
+
+Este projeto explora o dataset público de e-commerce brasileiro da Olist utilizando SQL para extrair insights sobre o desempenho de vendas, comportamento dos clientes e características dos pedidos. Foram realizadas consultas para identificar tendências de vendas, segmentar clientes por comportamento de compra e analisar a relação entre diferentes aspectos dos pedidos.
+
+🛠️ Ferramentas Usadas
+
+SQL (Linguagem de Consulta Estruturada)
+[Mencione o Sistema de Gerenciamento de Banco de Dados que você usou, ex: PostgreSQL, MySQL, SQL Server]
+📊 Resultados
+
+Consultas SQL para identificar os produtos mais vendidos e menos vendidos.
+Análise da distribuição de pedidos por estado e cidade dos clientes.
+Segmentação de clientes com base no número de pedidos e valor total gasto.
+Identificação dos métodos de pagamento mais populares e seu impacto nas vendas.
+Análise do tempo de entrega dos pedidos e sua relação com a satisfação do cliente (usando a tabela de reviews, se incluída).
+📄 Exemplos de Consultas (Opcional)
+
+SQL
+
+-- Top 10 produtos mais vendidos
+SELECT oi.product_id, COUNT(oi.order_id) AS total_pedidos
+FROM olist_order_items_dataset oi
+GROUP BY oi.product_id
+ORDER BY total_pedidos DESC
+LIMIT 10;
+
+-- Total de vendas por estado do cliente
+SELECT c.customer_state, SUM(op.payment_value) AS total_vendas
+FROM olist_customers_dataset c
+JOIN olist_orders_dataset o ON c.customer_id = o.customer_id
+JOIN olist_order_payments_dataset op ON o.order_id = op.order_id
+GROUP BY c.customer_state
+ORDER BY total_vendas DESC;
+
+📂 Como usar
+
+Os scripts SQL desenvolvidos podem ser executados em qualquer ambiente de banco de dados SQL compatível com o dataset da Olist para replicar as análises e explorar outras questões de negócio.
+
+Analise de E-commerce com Excel
+
+Projeto: Dashboard Interativo de Análise de Vendas e Produtos com Excel
+
+💼 Descrição
+
+Este projeto utiliza o Microsoft Excel para analisar o dataset de e-commerce brasileiro da Olist. Foi criado um dashboard interativo com tabelas dinâmicas, fórmulas e gráficos para visualizar o desempenho de vendas por produto, categoria e região, além de fornecer insights sobre o comportamento dos clientes.
+
+🛠️ Ferramentas Usadas
+
+Excel
+Fórmulas: PROCV, SOMASE, MÉDIA, CONT.SES, SOMASES, MÉDIASES
+Tabelas Dinâmicas
+Gráficos: Colunas, Barras, Pizza, Linha
+📊 Resultados
+
+Dashboard interativo com visualizações de vendas totais, média de valor do pedido e número de pedidos.
+Análise de vendas por categoria de produto, identificando as mais e menos lucrativas.
+Comparativo de vendas por estado dos clientes.
+Visualização da distribuição dos métodos de pagamento.
+Análise da frequência de compra dos clientes.
+🖼️ Exemplos Visuais
+
+Image:
+
+📂 Como usar
+
+Baixe a planilha do Excel (.xlsx) criada com os dados da Olist para interagir com o dashboard, explorar os filtros e analisar os diferentes aspectos do e-commerce brasileiro.
+
+Analise de E-commerce com Power BI
+
+Projeto: Dashboard Interativo de Business Intelligence para E-commerce Brasileiro com Power BI
+
+💼 Descrição
+
+Este projeto desenvolve um dashboard de Business Intelligence utilizando o Power BI para analisar o dataset de e-commerce da Olist. O objetivo é fornecer uma visão abrangente do desempenho do negócio, incluindo vendas, clientes, produtos, pagamentos e logística, permitindo a identificação de tendências, oportunidades e áreas de melhoria.
+
+🛠️ Ferramentas Usadas
+
+Power BI Desktop
+Conexão de dados com arquivos CSV do dataset da Olist
+Modelagem de dados (criação de relacionamentos entre as tabelas)
+Criação de medidas DAX para cálculos complexos (ex: Total de Vendas, Média de Valor do Pedido, Taxa de Crescimento)
+Visualizações interativas (gráficos de barras, linhas, dispersão, mapas, tabelas)
+Segmentações de dados e filtros
+📊 Resultados
+
+Dashboard interativo com KPIs chave: Total de Vendas, Número de Pedidos, Valor Médio do Pedido, Número de Clientes Únicos.
+Análise detalhada de vendas por categoria de produto, com drill-down para subcategorias (se aplicável).
+Visualização geográfica das vendas por estado e cidade dos clientes.
+Análise do desempenho dos métodos de pagamento e número de parcelas.
+Avaliação do tempo de entrega dos pedidos e sua distribuição.
+Análise da satisfação do cliente com base nas avaliações (se incluído o dataset de reviews).
+🖼️ Exemplos Visuais
+
+Link:
+
+📂 Como usar
+
+O arquivo .pbix do Power BI pode ser aberto no Power BI Desktop para explorar o modelo de dados, as medidas DAX e interagir com o dashboard. Se publicado no Power BI Service, um link para o dashboard online pode ser fornecido.
