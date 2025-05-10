@@ -1,4 +1,5 @@
 Análise de E-commerce com SQL e Power BI
+
 💼 Projeto: Análise de Vendas e Clientes com Business Intelligence
 Este projeto utiliza dados públicos do e-commerce brasileiro da Olist para gerar insights de negócio. Foram criadas views SQL otimizadas para análise no Power BI, resultando em um dashboard interativo com métricas chave como volume de vendas, produtos mais vendidos, comportamento do cliente e desempenho logístico.
 
