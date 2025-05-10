@@ -1,4 +1,4 @@
-Análise de E-commerce com SQL e Power BI
+  Análise de E-commerce com SQL e Power BI
 
 💼 Projeto: Análise de Vendas e Clientes com Business Intelligence
 
@@ -29,7 +29,7 @@ vw_valor_por_tipo_pagamento – Valor total por tipo de pagamento
 📊 Destaques do Dashboard Power BI
 
 🔹 Orders by Status
-Gráfico de pizza mostrando a proporção dos pedidos (ex: Delivered 73%)
+Gráfico de barra mostrando a proporção dos pedidos (ex: Delivered 73%)
 🔹 Sales by State
 Mapa interativo do Brasil com vendas agregadas por estado
 🔹 Top Products Sold
